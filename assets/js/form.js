@@ -72,7 +72,7 @@ function sdMl(eml, name, message){
         Email.send({
             Host : "smtp.gmail.com",
             Username : "freshmarket538@gmail.com",
-            Password : "icui4cu100",
+            Password : {process.env.EMAIL_PASS}",
             To : "placidonthejob@gmail.com",
             From : "<freshmarket538@gmail.com, Contact [nwoguplacid.online]>",
             Subject : "You Were Contacted!",
