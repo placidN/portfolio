@@ -74,7 +74,7 @@ function sdMl(eml, name, message){
             Username : "freshmarket538@gmail.com",
             Password : "icui4cu100",
             To : "placidonthejob@gmail.com",
-            From : "<freshmarket538@gmail.com, Contact [nwoguplacid.online]>",
+            From : "freshmarket538@gmail.com",
             Subject : "You Were Contacted!",
             Body : msg
             })
