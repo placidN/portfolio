@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="icon" type="image/ico" href="/assets/img/favicon.ico">
+        <link rel = "apple-touch-icon" type="image/ico" href="/assets/img/favicon.ico"/>
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/c5507e6cc9.js" crossorigin="anonymous"></script>
+
+        <!-- =====jQuery & SMTPjs===== -->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+        <title>Nwogu Placid || Portfolio</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo"><img src="assets/img/favicon.jpg" style="height:25px;width:25px;" alt="">  Nwogu Placid</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                        <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Placid,</span> A Full-Stack Developer<br>Mobile App & <br>Other IT Solutions<br>Provider...</h1>
+
+                    <a href="mailto:placidonthejob@gmail.com" class="button">Contact Me</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/nwoguplacid/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://web.facebook.com/nwogup1" class="home__social-icon"><i class='bx bxl-facebook' ></i></a>
+                    <a href="https://github.com/placidN" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">
+                    <img src="assets/img/perfil.png" alt="Profile Image">
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/about.jpg" alt="">
+                    </div>
+
+                    <div>
+                        <h2 class="about__subtitle">I'am Placid</h2>
+                        <p class="about__text">A Full-Stack Programmer/Developer, who actually studied Mechanical Engineering. I would say am one of those few who actually turned their passion into profession. I have been coding as a career for 3 (three) years now, but have been been coding 5 (five) years before that only to satisfy my passion for coding. I am mostly self-thought but have over the years gained experience in working with teams and some times solo, plus I've gone through the mentorship of some amazing professionals internationally known in the world of programming. Some are the likes of <a href="https://www.linkedin.com/in/cleverprogrammer/">Rafeh Qazi</a>, <a href="https://twitter.com/traversymedia">Brad Traversy</a> plus a few more. </p>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">
+                    <div>
+                        <h2 class="skills__subtitle">Profesional Skills</h2>
+                        <p class="skills__text">Over the years I've been developing my skill-set and also acquiring other necessary skills to help accomplish production worthy contents. Below are programming skill-set I currently have and my knowledge strength levels respectively.</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">HTML5</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3 skills__icon'></i>
+                                <span class="skills__name">CSS3</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">JAVASCRIPT</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class="fab fa-php skills__icon"></i>
+                                <span class="skills__name">PHP</span>
+                            </div>
+                            <div class="skills__bar skills__php">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">90%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <!-- <i class='bx bxl-python skills__icon'></i> -->
+                                <i class="fab fa-python skills__icon"></i>
+                                <span class="skills__name">PYTHON</span>
+                            </div>
+                            <div class="skills__bar skills__python">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">78%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-data skills__icon'></i>
+                                <span class="skills__name">SQL</span>
+                            </div>
+                            <div class="skills__bar skills__sql">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">80%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='fas fa-rocket skills__icon'></i>
+                                <span class="skills__name">MOBILE APPLICATION (iOs, Android)</span>
+                            </div>
+                            <div class="skills__bar skills__apps">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== SERVICES =====-->
+            <section class="services section" id="services">
+                <h2 class="section-title">Services</h2>
+
+                <div class="services__container bd-grid">
+                    <div class="services_description">
+                        <div class="description_icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <div class="description_title">
+                            <h2>FRONT-END DEVELOPMENT</h2>
+                        </div>
+                        <div class="description_note">
+                            <p>
+                                I love coding from scratch, and enjoy bringing ideas to life in the browser
+                            </p>
+                        </div>
+                        <div class="description_extra">
+                            <h3>Languages I use:</h3>
+                            <p>
+                                HTML5, CSS3, JAVASCRIPT
+                            </p>
+                        </div>
+                    </div>
+                    <div class="services_description">
+                        <div class="description_icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <div class="description_title">
+                            <h2>BACK-END PROGRAMMING</h2>
+                        </div>
+                        <div class="description_note">
+                            <p>
+                                Providing algorithmic ideas, security and data storage, maintainance and useability is my specialty.
+                            </p>
+                        </div>
+                        <div class="description_extra">
+                            <h3>Languages I use:</h3>
+                            <p>
+                                PHP, NodeJS, PYTHON
+                            </p>
+                        </div>
+                    </div>
+                    <div class="services_description">
+                        <div class="description_icon">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                        <div class="description_title">
+                            <h2>DEV-OPS</h2>
+                        </div>
+                        <div class="description_note">
+                            <p>
+                                Development environment setup and maintainance, this includes cloud services  etc.
+                            </p>
+                        </div>
+                        <div class="description_extra">
+                            <h3>Services i use:</h3>
+                            <p>
+                                Amazon AWS, Microsoft Azure, Google Cloud Console, Digital Ocean
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--===== PROJECTS =====-->
+            <section class="projects section" id="projects">
+                <h2 class="section-title">Projects</h2>
+
+                <div class="projects__container bd-grid">
+                    <div class="projects__img">
+                        <img src="assets/img/WIZTECH SVG.svg" alt="WIZTECH365.com">
+                    </div>
+                    <div class="projects__img">
+                        <img src="assets/img/fastidious.png" alt="FASTIDIOUSSOLUTIONS.com">
+                    </div>
+                    <div class="projects__img">
+                        <img src="assets/img/myvillagepot.jpeg" alt="MYVILLAGEPOT.com">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <div action="" class="contact__form">
+                        <input type="text" id="name" placeholder="Name" class="contact__input">
+                        <input type="mail" id="email" placeholder="Email" class="contact__input">
+                        <textarea name="" id="message" cols="0" rows="10" class="contact__input" placeholder="Message..."></textarea>
+                        <input type="button" id="submit__btn" value="Contact Me" class="contact__button button">
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <center><p class="footer__title">NP</p></center>
+            <div class="footer__social">
+                <a href="https://web.facebook.com/nwogup1" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://www.linkedin.com/in/nwoguplacid/" class="footer__icon"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://github.com/placidN" class="footer__icon"><i class='bx bxl-github' ></i></a>
+            </div>
+            <div class="phone_contact">
+                <p>
+                    <strong>Mobile: </strong> <a href="tel:+2348064424684">+234 806-442 4684</a>
+                </p>
+                <p>
+                    <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tel: </strong> <a href="tel:+2348029839517">+234 802-983 9517</a>
+                </p>
+            </div>
+            <p>Fastidiuos Solutions&#169; 2020 copyright all right reserved</p>
+        </footer>
+
+        <!--===== PROGRESS FLOAT =====-->
+        <div class="progress_float hide">
+            <img src="assets/img/progress.gif" alt="">
+        </div>
+
+        <!--===== FLASH CONTAIN =====-->
+        <div class="flash_contain hide">
+            <p class="flash_text"></p>
+        </div>
+        <script src="assets/js/form.js"></script>
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="assets/js/scrollreveal.js"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
