@@ -70,11 +70,10 @@ function sdMl(eml, name, message){
                     <p>${message}</p>
                 `
         Email.send({
-            Host : "smtp.gmail.com",
-            Username : "handlingjobs@gmail.com",
-            Password : "mytune01",
+            SecureToken : "75888a54-d05b-4452-acde-69a507c239b5",
+            Password : "4BD1256923DC8B4F855A3B9098C1F10479BE",
             To : "placidonthejob@gmail.com",
-            From : "handlingjobs@gmail.com",
+            From : "system.infomarket@gmail.com",
             Subject : "You Were Contacted!",
             Body : msg
             })
